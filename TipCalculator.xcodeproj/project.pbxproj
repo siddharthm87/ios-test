@@ -12,6 +12,7 @@
 		351D6F6E19B47FBD009384B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351D6F6C19B47FBD009384B7 /* Main.storyboard */; };
 		351D6F7019B47FBD009384B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351D6F6F19B47FBD009384B7 /* Images.xcassets */; };
 		351D6F7C19B47FBD009384B7 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D6F7B19B47FBD009384B7 /* TipCalculatorTests.swift */; };
+		351D6F8619B4827F009384B7 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D6F8519B4827F009384B7 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		351D6F7519B47FBD009384B7 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		351D6F7A19B47FBD009384B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		351D6F7B19B47FBD009384B7 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		351D6F8519B4827F009384B7 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				351D6F6819B47FBD009384B7 /* AppDelegate.swift */,
 				351D6F6A19B47FBD009384B7 /* ViewController.swift */,
+				351D6F8519B4827F009384B7 /* TipCalculatorModel.swift */,
 				351D6F6C19B47FBD009384B7 /* Main.storyboard */,
 				351D6F6F19B47FBD009384B7 /* Images.xcassets */,
 				351D6F6619B47FBD009384B7 /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351D6F8619B4827F009384B7 /* TipCalculatorModel.swift in Sources */,
 				351D6F6B19B47FBD009384B7 /* ViewController.swift in Sources */,
 				351D6F6919B47FBD009384B7 /* AppDelegate.swift in Sources */,
 			);
